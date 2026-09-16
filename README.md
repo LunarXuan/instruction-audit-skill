@@ -101,15 +101,6 @@ This illustration summarizes the [recorded host smoke test](examples/host-smoke-
 
 Current validation: **22 tests passed, 1 Windows symlink test skipped**. Hosted CI is configured but not claimed as executed. See [the full validation record](VALIDATION.md).
 
-## Develop and learn more
+## Friends
 
-```sh
-python -m unittest discover -s tests -v
-```
-
-- [Skill entry point](skills/instruction-audit/SKILL.md)
-- [Selected Skill scope](skills/instruction-audit/references/selected-skill.md) · [Main-model review](skills/instruction-audit/references/final-review.md)
-- [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
-- [Source publication](RELEASING.md) · [Illustration provenance](assets/README.md)
-
-This is an independent Skill distribution; it does not require the separate `skill-smoke` CLI. Source publication is prepared, but no remote release or live two-model efficacy result is implied.
+[Linux DO](https://linux.do/)

@@ -101,15 +101,6 @@ python skills/instruction-audit/scripts/build_agents.py examples/case.json --tar
 
 当前验证：**22 项测试通过，1 项因 Windows 符号链接权限跳过**。已配置跨平台 CI，但不声称远程任务已运行。详见[完整验证记录](VALIDATION.md)。
 
-## 开发与进一步阅读
+## 友情链接
 
-```sh
-python -m unittest discover -s tests -v
-```
-
-- [Skill 入口](skills/instruction-audit/SKILL.md)
-- [指定 Skill 的评估范围](skills/instruction-audit/references/selected-skill.md) · [主模型评审方法](skills/instruction-audit/references/final-review.md)
-- [安全说明](SECURITY.md) · [贡献指南](CONTRIBUTING.md) · [更新日志](CHANGELOG.md)
-- [源码发布步骤](RELEASING.md) · [插图来源与复现](assets/README.md)
-
-这是独立的 Skill 项目，不需要安装另一个 `skill-smoke` CLI。项目已准备好源码交付，但不代表已远程发布或已完成真实双模型效果验证。
+[Linux DO](https://linux.do/)
