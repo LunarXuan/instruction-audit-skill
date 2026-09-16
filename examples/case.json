@@ -1,0 +1,12 @@
+{
+  "name": "Toy instruction audit — replace before drawing conclusions",
+  "models": ["host-current"],
+  "protected": "Return only the answer requested by the user. Do not use tools or access files.",
+  "original": "For a sum, add each number carefully and double-check the result before answering.",
+  "repeats": 1,
+  "maxTrials": 4,
+  "tasks": [
+    {"id": "addition-one", "split": "holdout", "prompt": "What is 2 + 3 + 5? Return only the decimal integer.", "expected": "10"},
+    {"id": "addition-two", "split": "holdout", "prompt": "What is 11 + 7 + 4? Return only the decimal integer.", "expected": "22"}
+  ]
+}

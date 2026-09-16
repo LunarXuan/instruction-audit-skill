@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+audit-run*/
+work/
+.env
+.env.*

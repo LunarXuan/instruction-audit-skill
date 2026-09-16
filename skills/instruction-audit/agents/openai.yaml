@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instruction Audit"
+  short_description: "Test instruction value using your agent's models"
+  default_prompt: "Use $instruction-audit to compare my selected Skill or AGENTS.md on two models, then recommend what to keep using quality, measured time, host usage and public execution evidence."

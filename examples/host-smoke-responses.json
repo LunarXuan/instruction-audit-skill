@@ -1,0 +1,33 @@
+{
+  "description": "Actual native child answers captured on 2026-09-16. No API key was provided. Both children were spawned with fork_turns none; neither used tools. The tool returned canonical child task IDs but no resolved model identity. These records test dispatch and local recording only. Submitted prompts used the same protected, optional and task text as host-smoke-case.json, separated by blank lines rather than helper section headings.",
+  "responses": [
+    {
+      "trial": "t001",
+      "response": {
+        "answer": "10",
+        "status": "COMPLETED",
+        "requestedModel": "host-current",
+        "observedModel": null,
+        "identitySource": "unknown",
+        "sessionId": "/root/host_trial_without",
+        "isolated": true,
+        "synthetic": false,
+        "note": "Fresh child with no conversation inheritance; no tools used. Model identity unavailable. Content-equivalent prompt without helper headings; transport check only. Canonical child task ID is the host-provided session reference."
+      }
+    },
+    {
+      "trial": "t002",
+      "response": {
+        "answer": "10",
+        "status": "COMPLETED",
+        "requestedModel": "host-current",
+        "observedModel": null,
+        "identitySource": "unknown",
+        "sessionId": "/root/host_trial_original",
+        "isolated": true,
+        "synthetic": false,
+        "note": "Fresh child with no conversation inheritance; no tools used. Model identity unavailable. Content-equivalent prompt without helper headings; transport check only. Canonical child task ID is the host-provided session reference."
+      }
+    }
+  ]
+}
