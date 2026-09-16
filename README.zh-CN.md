@@ -99,7 +99,7 @@ python skills/instruction-audit/scripts/build_agents.py examples/case.json --tar
 - **评估范围要明确。** 辅助脚本对文本答案做精确检查；复杂代码和产物需要项目测试，原生发现和整包行为需要单独验证。
 - **建议可供审阅。** 精简建议可能只是待验证候选，不等于已证明冗余，也不会触发自动删除。
 
-当前验证：**22 项测试通过，1 项因 Windows 符号链接权限跳过**。已配置跨平台 CI，但不声称远程任务已运行。详见[完整验证记录](VALIDATION.md)。
+本地验证：**22 项测试通过，1 项因 Windows 符号链接权限跳过**。修改后可运行 `python -m unittest discover -s tests -v`。测试覆盖模型分派、指定对象、独立答案检查和用量记录；尚未验证自动安装发现、其他宿主或真实双模型效果。执行和数据边界见[安全说明](SECURITY.md)。
 
 ## 友情链接
 

@@ -99,7 +99,7 @@ This illustration summarizes the [recorded host smoke test](examples/host-smoke-
 - **Scope matters.** The helper grades exact text answers. Code/artifact tasks need project tests. Native Skill discovery and whole-package behavior need separate checks.
 - **Suggestions remain reviewable.** A simplify proposal may be an unverified candidate, never proof of redundancy or permission for automatic deletion.
 
-Current validation: **22 tests passed, 1 Windows symlink test skipped**. Hosted CI is configured but not claimed as executed. See [the full validation record](VALIDATION.md).
+Local validation: **22 tests passed, 1 Windows symlink test skipped**. Run `python -m unittest discover -s tests -v` to check changes. Tests cover dispatch, selected targets, independent answer checks and telemetry. Automatic installation/discovery, other hosts and real two-model effectiveness have not been verified. See [Security](SECURITY.md) for execution and data boundaries.
 
 ## Friends
 
